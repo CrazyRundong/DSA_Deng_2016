@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OJ-PA1-Range", "OJ-PA1-Range\OJ-PA1-Range.vcxproj", "{D38505F8-5F5C-4246-A7FE-5ABEC23F7564}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OJ-PA2-Zuma", "OJ-PA2-Zuma\OJ-PA2-Zuma.vcxproj", "{CFF15235-9387-487B-8182-1EAD5AB720BC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,14 @@ Global
 		{D38505F8-5F5C-4246-A7FE-5ABEC23F7564}.Release|x64.Build.0 = Release|x64
 		{D38505F8-5F5C-4246-A7FE-5ABEC23F7564}.Release|x86.ActiveCfg = Release|Win32
 		{D38505F8-5F5C-4246-A7FE-5ABEC23F7564}.Release|x86.Build.0 = Release|Win32
+		{CFF15235-9387-487B-8182-1EAD5AB720BC}.Debug|x64.ActiveCfg = Debug|x64
+		{CFF15235-9387-487B-8182-1EAD5AB720BC}.Debug|x64.Build.0 = Debug|x64
+		{CFF15235-9387-487B-8182-1EAD5AB720BC}.Debug|x86.ActiveCfg = Debug|Win32
+		{CFF15235-9387-487B-8182-1EAD5AB720BC}.Debug|x86.Build.0 = Debug|Win32
+		{CFF15235-9387-487B-8182-1EAD5AB720BC}.Release|x64.ActiveCfg = Release|x64
+		{CFF15235-9387-487B-8182-1EAD5AB720BC}.Release|x64.Build.0 = Release|x64
+		{CFF15235-9387-487B-8182-1EAD5AB720BC}.Release|x86.ActiveCfg = Release|Win32
+		{CFF15235-9387-487B-8182-1EAD5AB720BC}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
