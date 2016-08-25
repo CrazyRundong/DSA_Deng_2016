@@ -12,6 +12,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.gitignore = .gitignore
 	EndProjectSection
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OJ-PA1-Range-2", "OJ-PA1-Range-2\OJ-PA1-Range-2.vcxproj", "{64684414-378C-4044-B0F4-4E1F3CD28CE7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -36,6 +38,14 @@ Global
 		{CFF15235-9387-487B-8182-1EAD5AB720BC}.Release|x64.Build.0 = Release|x64
 		{CFF15235-9387-487B-8182-1EAD5AB720BC}.Release|x86.ActiveCfg = Release|Win32
 		{CFF15235-9387-487B-8182-1EAD5AB720BC}.Release|x86.Build.0 = Release|Win32
+		{64684414-378C-4044-B0F4-4E1F3CD28CE7}.Debug|x64.ActiveCfg = Debug|x64
+		{64684414-378C-4044-B0F4-4E1F3CD28CE7}.Debug|x64.Build.0 = Debug|x64
+		{64684414-378C-4044-B0F4-4E1F3CD28CE7}.Debug|x86.ActiveCfg = Debug|Win32
+		{64684414-378C-4044-B0F4-4E1F3CD28CE7}.Debug|x86.Build.0 = Debug|Win32
+		{64684414-378C-4044-B0F4-4E1F3CD28CE7}.Release|x64.ActiveCfg = Release|x64
+		{64684414-378C-4044-B0F4-4E1F3CD28CE7}.Release|x64.Build.0 = Release|x64
+		{64684414-378C-4044-B0F4-4E1F3CD28CE7}.Release|x86.ActiveCfg = Release|Win32
+		{64684414-378C-4044-B0F4-4E1F3CD28CE7}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

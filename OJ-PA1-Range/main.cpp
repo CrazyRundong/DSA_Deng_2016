@@ -4,11 +4,11 @@
 int main(int argc, char *argv[]) {
 	// get first ine
 	int length, que_num, idxBegin, idxEnd, answer;
-	float buffer, begin, end;
+	int buffer, begin, end;
 	std::cin >> length >> que_num;
 
 	// get x-axis
-	Vector<float> x_axis;
+	Vector<int> x_axis;
 	Vector<int> answers;
 	for (int i = 0; i < length; ++i) {
 		std::cin >> buffer;
