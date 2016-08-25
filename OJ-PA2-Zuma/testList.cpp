@@ -1,5 +1,4 @@
 #include "List.h"
-#include <cstdio>
 
 int main() {
 
@@ -14,9 +13,12 @@ int main() {
 	int opNum, numBuffer;
 
 	// get list
-	while (std::cin >> buffer) {
+	while (std::cin.get(buffer)) {
+		if (buffer == '\n')
+			break;
 		list1.push_back(buffer);
 	}
+
 	// get op num
 	std::cin >> opNum;
 	for (int i = 0; i < opNum; ++i) {
