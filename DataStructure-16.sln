@@ -10,9 +10,12 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F06D259F-6FCC-4AA5-8D9C-28445BB7075D}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
+		LICENSE = LICENSE
 	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OJ-PA1-Range-2", "OJ-PA1-Range-2\OJ-PA1-Range-2.vcxproj", "{64684414-378C-4044-B0F4-4E1F3CD28CE7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OJ-PA2-Train", "OJ-PA2-Train\OJ-PA2-Train.vcxproj", "{28A79034-6C75-4C6F-A89D-4D5EF5B16D3F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -46,6 +49,14 @@ Global
 		{64684414-378C-4044-B0F4-4E1F3CD28CE7}.Release|x64.Build.0 = Release|x64
 		{64684414-378C-4044-B0F4-4E1F3CD28CE7}.Release|x86.ActiveCfg = Release|Win32
 		{64684414-378C-4044-B0F4-4E1F3CD28CE7}.Release|x86.Build.0 = Release|Win32
+		{28A79034-6C75-4C6F-A89D-4D5EF5B16D3F}.Debug|x64.ActiveCfg = Debug|x64
+		{28A79034-6C75-4C6F-A89D-4D5EF5B16D3F}.Debug|x64.Build.0 = Debug|x64
+		{28A79034-6C75-4C6F-A89D-4D5EF5B16D3F}.Debug|x86.ActiveCfg = Debug|Win32
+		{28A79034-6C75-4C6F-A89D-4D5EF5B16D3F}.Debug|x86.Build.0 = Debug|Win32
+		{28A79034-6C75-4C6F-A89D-4D5EF5B16D3F}.Release|x64.ActiveCfg = Release|x64
+		{28A79034-6C75-4C6F-A89D-4D5EF5B16D3F}.Release|x64.Build.0 = Release|x64
+		{28A79034-6C75-4C6F-A89D-4D5EF5B16D3F}.Release|x86.ActiveCfg = Release|Win32
+		{28A79034-6C75-4C6F-A89D-4D5EF5B16D3F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

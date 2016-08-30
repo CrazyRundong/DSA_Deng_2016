@@ -55,6 +55,7 @@ public:
 	void de3duplicate(ListNodePosi(T) p);
 	ListNodePosi(T) insert(T const &e, Rank const idx);
 	ListNodePosi(T) push_back(T const &e);
+	T pop();
 	void show_result();
 };
 
@@ -86,6 +87,12 @@ template <typename T> void List<T>::remove(ListNodePosi(T) p) {
 template <typename T> ListNodePosi(T) List<T>::push_back(T const &e) {
 	++_size;
 	return _trailer->insertAsPred(e);
+}
+
+template <typename T> T List<T>::pop() {
+	T elem_backup = _header->_succ->_data;
+	remove(_header->_succ);
+	return elem_backup;
 }
 
 template <typename T> ListNodePosi(T) List<T>::insert(T const &e, Rank const idx) {

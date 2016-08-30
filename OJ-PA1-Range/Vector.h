@@ -39,6 +39,7 @@ public:
 	T& operator [] (Rank idx) const;
 	Rank insert(const T &, const Rank);
 	Rank push_back(const T &);
+	T& remove_back();
 };
 
 /*! \brief definitions of Protected Functions */
@@ -115,4 +116,9 @@ template <typename T> Rank Vector<T>::insert(const T & elem, const Rank rank_ins
 template <typename T> Rank Vector<T>::push_back(const T & elem) {
 	return insert(elem, _size);
 }
+
+template <typename T> T& Vector<T>::remove_back() {
+	return _elem[_size--];
+}
+
 #endif // !_VECTOR_H_
