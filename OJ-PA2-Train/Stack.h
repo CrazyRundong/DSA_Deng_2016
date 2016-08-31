@@ -3,8 +3,8 @@
 #define _STACK_H_
 
 #ifndef _OJ_
-#include "..\OJ-PA1-Range\Vector.h"
-#include "..\OJ-PA2-Zuma\List.h"
+#include "../OJ-PA1-Range/Vector.h"
+#include "../OJ-PA2-Zuma/List.h"
 #endif // !_OJ_
 
 #ifdef _OJ_
@@ -17,7 +17,7 @@ public:
 	Stack() {};
 	~Stack() {};
 	// Functions: read only
-	T &top() { return _data[_data.size()]; }
+	T &top() { return _data[_data.size() - 1]; }
 	Rank size() { return _data.size(); }
 	// Functions: write or delete
 	void push_back(const T &e) { _data.push_back(e); }
@@ -31,6 +31,7 @@ template <typename T> class Queene {
 public:
 	Queene() {};
 	~Queene() {};
+	Rank size() { return _data.size(); }
 	// Functions: write or delete
 	void push_back(const T &e) { _data.push_back(e); }
 	T pop() { return _data.pop(); }

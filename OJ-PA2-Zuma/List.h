@@ -52,6 +52,7 @@ private:
 public:
 	List();
 	~List();
+	int size() { return _size; }
 	void de3duplicate(ListNodePosi(T) p);
 	ListNodePosi(T) insert(T const &e, Rank const idx);
 	ListNodePosi(T) push_back(T const &e);
@@ -90,6 +91,7 @@ template <typename T> ListNodePosi(T) List<T>::push_back(T const &e) {
 }
 
 template <typename T> T List<T>::pop() {
+	--_size;
 	T elem_backup = _header->_succ->_data;
 	remove(_header->_succ);
 	return elem_backup;
